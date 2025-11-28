@@ -2,19 +2,19 @@
 
 This is the base Nerves System configuration for the Pine64+ single-board computer (with WIFI/BT module).
 
-![Pine64+ Board](assets/images/pine64-plus.jpg)
-<br><sup>[Pine A64+](https://www.pine64.org/devices/single-board-computers/pine-a64/)</sup>
+![Pine64+ Board](https://linux-sunxi.org/images/thumb/e/ee/20160401_210300.jpg/1600px-20160401_210300.jpg)
+<br><sup>[Pine A64+](https://linux-sunxi.org/Pine64)</sup>
 
 | Feature              | Description                      |
 | -------------------- | -------------------------------- |
 | CPU                  | 1.152 GHz quad-core Cortex-A53 (64-bit mode) |
 | Memory               | 2 GB LPDDR3 SDRAM                |
 | Storage              | MicroSD                          |
-| Linux kernel         | 6.6.93 with Allwinner/SUNXI patches |
+| Linux kernel         | 6.6.93                           |
 | IEx terminal         | UART `ttyS0`                     |
 | GPIO, I2C, SPI       | Yes - [Elixir Circuits](https://github.com/elixir-circuits) |
 | ADC                  | No                               |
-| PWM                  | Yes, but no Elixir support       |
+| PWM                  | Yes                              |
 | UART                 | 1 available - `ttyS0`            |
 | Display              | HDMI                             |
 | Ethernet             | Yes - Gigabit Ethernet           |
